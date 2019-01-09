@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -12,7 +12,7 @@ setup(name='__pip_name__',
       author='__author__',
       author_email='__author_email__',
       license='MIT',
-      packages=setuptools.find_packages(),
+      packages=find_packages(),
       zip_safe=False,
       classifiers=[
             "Programming Language :: Python :: 3",
