@@ -1,2 +1,1 @@
-def hello_pip():
-    print('hello pip!')
+# 这里是你的package

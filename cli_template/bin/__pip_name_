@@ -1,0 +1,4 @@
+def hello_pip():
+    print('this is __pip_name__ cli!')
+
+hello_pip()
